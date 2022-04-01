@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, we choose part 1 and part 2. Both of the parts implemnt material modeling to get the precise light of different objects by its material. In part 1, I have implemented reflect and refract function to calculate wi. And we implement f-value function of both mirror (merely reflect) and glass (both reflect and refract) models according to its brightness attribute. 
+In this project, we choose part 1 and part 2. Both of the parts implemnt material modeling to get the precise light of different objects by its material. In part 1, We have implemented reflect and refract function to calculate wi. And we implement f-value function of both mirror (merely reflect) and glass (both reflect and refract) models according to its brightness attribute. In part 2, we implemented the Microfacet mode, such as isotropic rough conductors that only reflect. We completed the Normal Distribution Function(NDF) and cpmputed the Fresnel Term, then combined them into Microfacet BRDF, finally, we implemented Importance Sampling to optimize sampling mode.
 
 
 ## Part1: Mirror and Glass Materials
