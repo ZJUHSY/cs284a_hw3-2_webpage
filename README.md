@@ -48,8 +48,8 @@ Cosine Hemisphere Sampling | Importance Sampling
 From the above figures, we can see that Cosine Hemisphere Sampling will cause a lot of noise on Bunny's surface. The reason is similar to that in hw3-1. Cosine Hemisphere Sampling can't accurately sample every light, and some incident light doesn't fully meet the previously used reflection equation. But Importance Sampling solves this problem well, it ensures that each tracked light is guided to the light source, effectively reducing the loss of light, so the noise on the bunny surface is also less.
 
 ### Show at least one image with some other conductor material, replacing eta and k. Note that you should look up values for real data rather than modifying them arbitrarily. Tell us what kind of material your parameters correspond to
-
-![](/pic/2-3.png)
+After looking up the refractive index and the extinction coefficient of conductor material, we chose silver for rendering, the eta of sliver is 0.45138, 46708, 0.45608, and the k of sliver is 5.8554, 5.2037, 4.2763. The result is as follow.
+![](/pic/2-3-1.png)
 
 ## Extra Credit
 
