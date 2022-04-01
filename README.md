@@ -35,7 +35,7 @@ When m = 4, only the front area of the front ball are visibly brighter. This is 
 
 α=0.005 | α=0.05 | α=0.25 | α=0.5
 :---: | :---: | :---: | :---:
-![](/pic/CBspheres_3.png) | ![](/pic/CBspheres_4.png) | ![](/pic/CBspheres_5.png) | ![](/pic/CBspheres_100.png)
+![](/pic/2-1-0005.png) | ![](/pic/2-1-005.png) | ![](/pic/2-1-025.png) | ![](/pic/2-1-05.png)
 
 ### Show two images of scene CBbunny_microfacet_cu.dae rendered using cosine hemisphere sampling (default) and your importance sampling. The sampling rate should be fixed at 64 samples per pixel and 1 samples per light. The number of bounces should be at least 5. Briefly discuss their difference.
 
