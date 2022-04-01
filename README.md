@@ -33,6 +33,10 @@ When m = 4, only the front area of the front ball are visibly brighter. This is 
 ## Part2: Microfacet Material
 ### Show a sequence of 4 images of scene CBdragon_microfacet_au.dae rendered with α set to 0.005, 0.05, 0.25 and 0.5. The other settings should be at least 128 samples per pixel and 1 samples per light. The number of bounces should be at least 5. Describe the differences between different images. Note that, to change the α, just open the .dae file and search for microfacet.
 
+m=3 | m=4 | m=5 | m=100
+:---: | :---: | :---: | :---:
+![](/pic/CBspheres_3.png) | ![](/pic/CBspheres_4.png) | ![](/pic/CBspheres_5.png) | ![](/pic/CBspheres_100.png)
+
 ### Show two images of scene CBbunny_microfacet_cu.dae rendered using cosine hemisphere sampling (default) and your importance sampling. The sampling rate should be fixed at 64 samples per pixel and 1 samples per light. The number of bounces should be at least 5. Briefly discuss their difference.
 
 ### Show at least one image with some other conductor material, replacing eta and k. Note that you should look up values for real data rather than modifying them arbitrarily. Tell us what kind of material your parameters correspond to
