@@ -45,6 +45,8 @@ Cosine Hemisphere Sampling | Importance Sampling
 
 ### Show at least one image with some other conductor material, replacing eta and k. Note that you should look up values for real data rather than modifying them arbitrarily. Tell us what kind of material your parameters correspond to
 
+![](/pic/2-3.png)
+
 ## Extra Credit
 
 
