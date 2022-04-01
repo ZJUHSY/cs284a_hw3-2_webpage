@@ -37,11 +37,15 @@ When m = 4, only the front area of the front ball are visibly brighter. This is 
 :---: | :---: | :---: | :---:
 ![](/pic/2-1-0005.png) | ![](/pic/2-1-005.png) | ![](/pic/2-1-025.png) | ![](/pic/2-1-05.png)
 
+From the above figures, we can see that with the increasing of α, the specular gloss of the Dragon surface decreases and the roughness increases. When α is 0.005, the Dragon surface is completely specular, and when α is 0.5, the Dragon surface becomes frosted.
+
 ### Show two images of scene CBbunny_microfacet_cu.dae rendered using cosine hemisphere sampling (default) and your importance sampling. The sampling rate should be fixed at 64 samples per pixel and 1 samples per light. The number of bounces should be at least 5. Briefly discuss their difference.
 
 Cosine Hemisphere Sampling | Importance Sampling
 :---: |:---:
 ![](/pic/2-2-c.png) | ![](/pic/2-2-i.png)
+
+From the above figures, we can see that Cosine Hemisphere Sampling will cause a lot of noise on Bunny's surface. The reason is similar to that in hw3-1. Cosine Hemisphere Sampling can't accurately sample every light, and some incident light doesn't fully meet the previously used reflection equation. But Importance Sampling solves this problem well, it ensures that each tracked light is guided to the light source, effectively reducing the loss of light, so the noise on the bunny surface is also less.
 
 ### Show at least one image with some other conductor material, replacing eta and k. Note that you should look up values for real data rather than modifying them arbitrarily. Tell us what kind of material your parameters correspond to
 
