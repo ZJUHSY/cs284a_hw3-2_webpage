@@ -39,6 +39,10 @@ When m = 4, only the front area of the front ball are visibly brighter. This is 
 
 ### Show two images of scene CBbunny_microfacet_cu.dae rendered using cosine hemisphere sampling (default) and your importance sampling. The sampling rate should be fixed at 64 samples per pixel and 1 samples per light. The number of bounces should be at least 5. Briefly discuss their difference.
 
+Cosine Hemisphere Sampling | Importance Sampling
+:---: |:---:
+![](/pic/2-2-c.png) | ![](/pic/2-2-i.png)
+
 ### Show at least one image with some other conductor material, replacing eta and k. Note that you should look up values for real data rather than modifying them arbitrarily. Tell us what kind of material your parameters correspond to
 
 ## Extra Credit
