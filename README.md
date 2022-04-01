@@ -37,7 +37,7 @@ When m = 4, only the front area of the front ball are visibly brighter. This is 
 :---: | :---: | :---: | :---:
 ![](/pic/2-1-0005.png) | ![](/pic/2-1-005.png) | ![](/pic/2-1-025.png) | ![](/pic/2-1-05.png)
 
-From the above figures, we can see that with the increasing of α, the specular gloss of the Dragon surface decreases and the roughness increases. When α is 0.005, the Dragon surface is completely specular, and when α is 0.5, the Dragon surface becomes frosted, we can't see any reflected image from the surface of the dragon at this time.
+From the above figures, we can see that with the increasing of α, the specular gloss of the Dragon surface decreases and the roughness increases. When α is 0.005, the Dragon surface is completely specular and there is a lot of reflected information on the surface, and when α is 0.5, the Dragon surface becomes frosted, we can't see any reflected image from the surface of the dragon at this time.
 
 ### Show two images of scene CBbunny_microfacet_cu.dae rendered using cosine hemisphere sampling (default) and your importance sampling. The sampling rate should be fixed at 64 samples per pixel and 1 samples per light. The number of bounces should be at least 5. Briefly discuss their difference.
 
