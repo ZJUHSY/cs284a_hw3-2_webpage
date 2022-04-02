@@ -57,3 +57,7 @@ After looking up the refractive index and the extinction coefficient of conducto
 
 Songye Han has finished the majority of the part 1. And Tianyi Huang has implemented the majority of the part 2. The two parts are kind of separated. Therefore, we parallel our work by different github branches and merge the code together after both of us have finished our own work. 
 Both of us spent a happy spring break outside. Therefore, it is important to plan the schedule ahead and split the work in advance. After completing our respective parts, we shared our ideas and checked the code with each other. 
+
+## Website
+
+Our website is hosted at [webiste](https://zjuhsy.github.io/cs284a_hw3-2_webpage/)
