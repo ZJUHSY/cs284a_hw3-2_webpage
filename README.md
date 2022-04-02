@@ -49,10 +49,8 @@ From the above figures, we can see that Cosine Hemisphere Sampling will cause a 
 
 ### Show at least one image with some other conductor material, replacing eta and k. Note that you should look up values for real data rather than modifying them arbitrarily. Tell us what kind of material your parameters correspond to
 After looking up the refractive index and the extinction coefficient of conductor material, we chose silver for rendering, the eta of sliver is 0.45138, 46708, 0.45608, and the k of sliver is 5.8554, 5.2037, 4.2763. The result is as follow.
+
 ![](/pic/2-3-1.png)
-
-## Extra Credit
-
 
 
 ## Collaboration
